@@ -30,7 +30,7 @@
 <body>
 
 <h1>Privacy Policy</h1>
-<p class="updated">StepQuest: The Walking Crusade — Last updated July 24, 2026</p>
+<p class="updated">StepQuest: The Walking Crusade — Last updated September 2, 2026</p>
 
 <p>This policy explains what information StepQuest: The Walking Crusade ("StepQuest", "the app", "we") collects, how it's used, and who it's shared with. StepQuest is a fitness role-playing game: you earn in-game currency and abilities by walking and logging meals, then use those rewards in a dice-based combat game.</p>
 
@@ -54,6 +54,11 @@
     <td>Sent to our AI calorie-estimation service to estimate calories for your food log. Photos are processed for that single request and are <strong>not stored on our servers</strong> afterward — only the estimated calorie count and food name are saved to your account.</td>
   </tr>
   <tr>
+    <td>Recipe &amp; video link data</td>
+    <td>The link to a video you share from TikTok, Instagram, or Facebook (or paste in manually), that video's publicly available title/thumbnail, and the ingredient list and macro estimates extracted from its caption</td>
+    <td>Powers the Recipes feature (StepQuest Pro): the caption text is sent to our AI service to extract ingredients and estimate macros, and the link/thumbnail/results are saved to your account so you can view or log the recipe later</td>
+  </tr>
+  <tr>
     <td>Purchase &amp; subscription data</td>
     <td>Records of in-app purchases and subscription status (e.g. whether you've purchased the Pro subscription or an in-game currency bundle)</td>
     <td>To grant you the items/features you've purchased, and to process billing through Google Play</td>
@@ -74,7 +79,7 @@
 <p>We don't run our own servers for most of this — instead we use the following third-party services, each of which processes a specific slice of the data above on our behalf:</p>
 <ul>
   <li><strong>Supabase</strong> — hosts our database, user authentication, and backend functions. Your account info and game progress are stored here.</li>
-  <li><strong>Anthropic</strong> — provides the AI model used to estimate calories from food photos/descriptions. Photos are sent to Anthropic's API for a single analysis request and are not retained by us afterward.</li>
+  <li><strong>Anthropic</strong> — provides the AI model used to estimate calories from food photos/descriptions, and to extract ingredients and macros from shared recipe video captions (StepQuest Pro). Photos and text are sent to Anthropic's API for a single analysis request and are not retained by us afterward.</li>
   <li><strong>Google AdMob</strong> — serves banner ads within the app.</li>
   <li><strong>RevenueCat</strong> — manages subscription and purchase status.</li>
   <li><strong>Google Play Billing</strong> — processes all real-money payments; we never see or store your payment card details.</li>
@@ -86,6 +91,7 @@
   <li>We do not sell your personal information to anyone.</li>
   <li>We do not use your food photos, step data, or account info for any purpose beyond providing the app's features described above.</li>
   <li>We do not share your data with third parties except the service providers listed above, each of whom processes it only to perform the specific function we use them for.</li>
+  <li>We do not download or store the actual video or audio content from any social media platform — only the publicly available title, thumbnail, and caption text that platform's own preview/embed service provides.</li>
 </ul>
 
 <h2>Data Retention &amp; Deletion</h2>
